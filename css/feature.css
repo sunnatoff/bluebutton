@@ -1,0 +1,339 @@
+.c-hero-big-div, .c-soure-big-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.c-feature-info-box{
+    background-color: #247BA0;
+    width: 62%;
+}
+.c-source-info-box, .c-feature-info-box{
+    padding: 0 80px ;
+    min-height: 640px;;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+} 
+.responsive-list-none {
+    display: none;
+}
+.header-responsive-flex-mini-section {
+    margin-left: -105px;
+}
+.header-responsive-flex-section {
+    display: flex;
+    justify-content: space-around;
+}
+.header-responsive-item {
+    padding: 22px 20px 22px 44px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    color: #0F4D9D;
+}
+.header-responsive-item:hover {
+    background-color: #0F4D9D;
+    color: #fff;
+}
+.bars-icon {
+    display: none;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.responsive-list {
+    position: absolute;
+    width: 100%;
+    top: -1000px;
+    list-style-type: none;
+    transition: 1s ease all;
+    right: 0;
+}
+.header-responsive-link {
+    font-family: "Montserrat", Sans-serif;  
+    font-size: 14px;
+    font-weight: 500;
+    color: #ccc;
+    text-decoration: none;
+}
+.header-responsive-link-mini {
+    width: 100%;
+}
+.header-responsive-link-mini {
+    font-family: "Montserrat", Sans-serif;  
+    font-size: 14px;
+    font-weight: 500;
+    color: #ccc;
+    text-decoration: none;
+}
+.header-responsive-item-mini {
+    padding: 22px 0px 22px 45px;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+.header-responsive-item-mini:hover {
+    background-color: #0F4D9D;
+}
+.header-responsive-list-mini {
+    width: 100%;
+    padding-left: 0px;
+    transition: 1s ease all;
+    list-style-type: none;
+    display: none;
+}
+.header-responsive-list-mini-first {
+    width: 100%;
+    padding-left: 0px;
+    transition: 1s ease all;
+    list-style-type: none;
+    display: none;
+}
+.header-responsive-list-mini-two {
+    width: 100%;
+    padding-left: 0px;
+    transition: 1s ease all;
+    list-style-type: none;
+    display: none;
+}
+.header-flex-drop-link:hover {
+    background-color: #0F4D9D;
+    color: #fff;
+    transition: .7s ease all;
+}
+.c-feature-info-box > div{
+    width: 100%;
+}
+.c-source-poster-box{
+    width: 38%;
+    background-image: url('https://bigbluebutton.org/wp-content/uploads/2021/01/Home-1.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.c-source-poster-boxs{
+    width: 38%;
+    background-image: url('https://bigbluebutton.org/wp-content/uploads/2021/02/opt-headway-5QgIuuBxKwM-unsplash.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.c-source-img-box, .c-source-poster-box, .c-source-poster-boxs{
+    padding: 320px 0;
+}
+.c-respon-img-box{
+    display: none;
+}
+.c-feature-text{
+    color: #FFFFFF;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 18px;
+    text-transform: capitalize;
+    line-height: 1.3em;
+    font-weight: bold;
+}
+.c-feature-information-title{
+    margin: 0;
+    color: #FFFFFF;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.c-source-title{
+    margin: 0;
+    color: #FFFFFF;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.c-feature-information-text{
+    min-width: 300px;
+    color: #FFFFFF;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+.c-teacher-big-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.c-teacher-img-blue-box{
+    position: relative;
+    background-color: #00BDDD;
+    width: 30%;
+    height: 100% !important;
+    padding: 240px 0;
+}
+.c-teacher-img{
+    margin-left: -300px;
+}
+.c-teacher-info-box{
+    width: 65%;
+    /* display: flex;
+    align-items: center; */
+}
+.c-teacher-info-box > div{
+    padding: 0 100px;
+}
+.c-teacher-text{
+    width: 450px;
+}
+.c-teacher-title, .c-respon-img-title {
+    color: #212326;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 1em;
+}
+.c-teacher-min-info{
+    padding: 0 100px;
+}
+.c-teacher-text{
+    font-family: "Montserrat", sans-serif;
+    color: #6B7177;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.3em;
+}
+.c-source-img-box{
+    width: 45%;
+    background-image: url('https://bigbluebutton.org/wp-content/uploads/2021/01/opti-procreator-ux-design-studio-VzJjPuk53sk-unsplash.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.c-source-info-box{
+    width: 45%;
+    background: #0F70D7;
+}
+.c-source-title{
+    margin-top: 50px;
+}
+.c-source-poster{
+    width: 45% !important;
+    height: 100%;
+    right: 0;
+    margin-left: -10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: cover;
+}
+.c-include-section{
+    padding: 50px 0;
+}
+.c-include-big-box{
+    padding: 0 70px;
+}
+.c-includes-title{
+    color: #212326;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: capitalize;
+    line-height: 1em;
+}
+.c-includes-text{
+    color: #6B7177;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 1em;
+}
+
+.c-includes-list{
+    margin-top: 80px;
+    list-style: none;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.c-includes-item{
+    margin: 20px 0;
+    text-align: center;
+    display: flex;
+    align-items: top;
+    flex-direction: column;
+    width: 22%;
+}
+.c-includes-item-title{
+    color: rgb(15, 77, 157);
+    font-family: "Montserrat", Sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 0;
+}
+.footer-big-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    flex-wrap: wrap;
+}
+.center-footer-list {
+    list-style-type: none;
+    margin-top: 22px;
+}
+.c-includes-item-text{
+    color: #6B7177;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.4em;
+}
+.c-includes-img-box{
+    margin-bottom: 20px;
+}
+.c-includes-img-box > img{
+    border-radius: 50%;
+}
+.c-klaus-margin{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px !important;
+}
+
+@media screen and (max-width: 1200px) {
+    .header-container {
+        width: 90%;
+    }
+    .header {
+       padding-left: 100px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .header-flex-list {
+        display: none;
+     }
+     .header {
+        padding-left: 55px;
+     }
+     .bars-icon {
+        display: block;
+     }
+     .responsive-list-none {
+        display: block;
+     }
+     .bars-icon {
+        display: block;
+    }
+    .center-footer-item {
+        text-align: center;
+        width: 100%;
+        margin-top: 30px;
+      }
+  .footer-first-section {
+          padding-left: 0px;
+      }
+      .footer-big-list {
+          padding-left: 20px;
+      }
+}

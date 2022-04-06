@@ -1,0 +1,204 @@
+.c-support-section{
+    padding: 100px 0;
+}
+.c-support-big-box {
+  padding: 0 50px;
+}
+.c-support-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.responsive-list-none {
+    display: none;
+}
+.header-responsive-flex-mini-section {
+    margin-left: -105px;
+}
+.header-responsive-flex-section {
+    display: flex;
+    justify-content: space-around;
+}
+.header-responsive-item {
+    padding: 22px 20px 22px 44px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    color: #0F4D9D;
+}
+.header-responsive-item:hover {
+    background-color: #0F4D9D;
+    color: #fff;
+}
+.bars-icon {
+    display: none;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.responsive-list {
+    position: absolute;
+    width: 100%;
+    top: -1000px;
+    list-style-type: none;
+    transition: 1s ease all;
+    right: 0;
+}
+.header-responsive-link {
+    font-family: "Montserrat", Sans-serif;  
+    font-size: 14px;
+    font-weight: 500;
+    color: #ccc;
+    text-decoration: none;
+}
+.header-responsive-link-mini {
+    width: 100%;
+}
+.header-responsive-link-mini {
+    font-family: "Montserrat", Sans-serif;  
+    font-size: 14px;
+    font-weight: 500;
+    color: #ccc;
+    text-decoration: none;
+}
+.header-responsive-item-mini {
+    padding: 22px 0px 22px 45px;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+.header-responsive-item-mini:hover {
+    background-color: #0F4D9D;
+}
+.header-responsive-list-mini {
+    width: 100%;
+    padding-left: 0px;
+    transition: 1s ease all;
+    list-style-type: none;
+    display: none;
+}
+ul {
+    list-style-type: none;
+}
+.header-responsive-list-mini-first {
+    width: 100%;
+    padding-left: 0px;
+    transition: 1s ease all;
+    list-style-type: none;
+    display: none;
+}
+.header-responsive-list-mini-two {
+    width: 100%;
+    padding-left: 0px;
+    transition: 1s ease all;
+    list-style-type: none;
+    display: none;
+}
+.header-flex-drop-link:hover {
+    background-color: #0F4D9D;
+    color: #fff;
+    transition: .7s ease all;
+}
+ul {
+    list-style-type: none;
+}
+.footer-big-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    flex-wrap: wrap;
+}
+.center-footer-list {
+    list-style-type: none;
+    margin-top: 22px;
+}
+.c-support-item {
+  width: 43%;
+  height: 217px;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #cccccc;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin: 10px 10px 10px 10px;
+  padding: 30px 30px 30px 30px;
+}
+.c-support-icon-section {
+    background-color: #0F70D7;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    color: #fff;
+    width: 22px;
+    height: 20px;
+    border-radius: 50%;
+}
+.c-support-item > img{
+    border-radius: 50%;
+}
+.c-support-item-title{
+    color: #212326;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.c-support-item-text{
+    color: #6B7177;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.4em;
+}
+.c-support0item-link{
+    color: #0F70D7;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.c-support0item-link > i{
+    font-size: 30px;
+    margin-top: 3px;
+    font-weight: bold;
+}
+.c-support0item-link:hover{
+    color: #1F7AAA;
+}
+@media screen and (max-width: 1200px) {
+    .header-container {
+        width: 90%;
+    }
+    .header {
+       padding-left: 100px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .header-flex-list {
+        display: none;
+     }
+     .header {
+        padding-left: 55px;
+     }
+     .bars-icon {
+        display: block;
+     }
+     .responsive-list-none {
+        display: block;
+     }
+     .bars-icon {
+        display: block;
+    }
+    .center-footer-item {
+        text-align: center;
+        width: 100%;
+        margin-top: 30px;
+      }
+  .footer-first-section {
+          padding-left: 0px;
+      }
+      .footer-big-list {
+          padding-left: 20px;
+      }
+}
